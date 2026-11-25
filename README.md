@@ -2,6 +2,15 @@
 
 A documented home SOC lab: Wazuh SIEM, Windows and Linux endpoints with Sysmon, an Active Directory domain, and Atomic Red Team for attack simulation.
 
+## Focus areas
+- Log collection and analysis
+- Host and network visibility (Sysmon, Wazuh, Zeek)
+- Detection engineering basics (rules live in [detection-engineering-lab](https://github.com/LeoneDutra/detection-engineering-lab))
+- Incident response workflows (cases live in [dfir-casebook](https://github.com/LeoneDutra/dfir-casebook))
+- Packet capture and analysis exercises
+
+> No real or sensitive data is included. All logs are generated in the lab for educational purposes.
+
 ## Roadmap
 
 - [ ] Network diagram and component overview
@@ -20,6 +29,10 @@ configs/sysmon/
 configs/wazuh/
 docker/
 ```
+
+## Notes
+
+This repo replaces my earlier `soc-home-lab`.
 
 ## Skills demonstrated
 
